@@ -5,6 +5,22 @@ export const Container = styled.div`
         text-align: center;
         margin: 4rem 0;
     }
+
+    .buttons{
+        display: flex;
+        justify-content: space-between;
+        margin: 3rem 2rem ;
+    }
+
+    button{
+        border: none;
+        cursor: pointer;
+        border-radius: 0.8rem 2rem ;
+        padding: 0.8rem 2rem;
+        background: #6654da;
+        color: white;
+        font-size: 100%;
+    }
 `
 
 export const MovieList = styled.ul`
